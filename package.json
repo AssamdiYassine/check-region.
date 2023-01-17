@@ -1,0 +1,20 @@
+{
+  "name": "chronos-global-auth",
+  "version": "1.0.0",
+  "description": "It's an authentication micro-service",
+  "main": "index.js",
+  "author": "Chronos Dev Team",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
